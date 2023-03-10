@@ -10,7 +10,7 @@ const Details = () => {
       {/* <!-- Background image --> */}
       <div
         id="intro-example"
-        class="text-center bg-image"
+        className="text-center bg-image"
         style={{
           backgroundImage:
             "url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp}')",
@@ -18,21 +18,21 @@ const Details = () => {
           backgroundAttachment: "fixed",
         }}
       >
-        <div class="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}>
-          <div class="container">
-            <div class="text-white">
-              <Link to="/" class="text-white">
-                <h1 class="mb-4 mt-4">
-                  Award <span class="text-primary text-gradient">Flight</span>
-                  <span class="m-3">
-                    <i class="fas fa-plane-departure"></i>
+        <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}>
+          <div className="container">
+            <div className="text-white">
+              <Link to="/" className="text-white">
+                <h1 className="mb-4 mt-4">
+                  Award <span className="text-primary text-gradient">Flight</span>
+                  <span className="m-3">
+                    <i className="fas fa-plane-departure"></i>
                   </span>
                 </h1>
               </Link>
               <form>
                 {/* <!-- 2 column grid layout with text inputs for the first and last names --> */}
-                <table class="table table-hover">
-                  <thead class="table-light">
+                <table className="table table-hover">
+                  <thead className="table-light">
                     <tr>
                       <th scope="col">#</th>
                       <th scope="col">First</th>
@@ -40,7 +40,7 @@ const Details = () => {
                       <th scope="col">Handle</th>
                     </tr>
                   </thead>
-                  <tbody class="text-light">
+                  <tbody className="text-light">
                     <tr>
                       <th scope="row">1</th>
                       <td>Mark</td>
